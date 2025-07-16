@@ -1,0 +1,22 @@
+@use "../Basic/base" as *;
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  &__item {
+    font-size: 1.8rem; /* 18px */
+    font-weight: 500;
+    line-height: 2.6rem;
+    color: $dark-01;
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+  &__button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.8rem; /* 18px */
+    font-weight: 500;
+    font-family: $font-primary;
+  }
+}

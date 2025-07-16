@@ -1,3 +1,147 @@
+/* Importing Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* Variables Declaration*/
+/*Basic Settings*/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.6rem; /* 16px */
+  line-height: 1.5;
+  color: #131313;
+  background-color: rgba(255, 144, 14, 0.1);
+  max-width: 80vw; /* 86% of viewport width */
+  margin: 0 auto; /* Centering the body*/
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background-color: #ff900e;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem; /* 16px */
+  border-radius: 0.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-bottom: 1.6rem; /* 16px */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+.header__title {
+  margin-top: 10rem;
+  font-size: 6.4rem;
+  line-height: 1.2;
+}
+
+.header__description {
+  font-size: 1.6rem;
+  color: #727272;
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
+/* Responsive Design */
+.text-center {
+  text-align: center;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+.mb-6 {
+  margin-bottom: 6rem;
+}
+
+.header__button {
+  margin: 5rem 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav__item {
+  font-size: 1.8rem; /* 18px */
+  font-weight: 500;
+  line-height: 2.6rem;
+  color: #131313;
+}
+.nav__item:not(:last-child) {
+  margin-right: 2rem;
+}
+.nav__button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+}
+
+.header {
+  height: 100vh;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+}
+
+.logo h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=style.css.map */

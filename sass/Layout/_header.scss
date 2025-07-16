@@ -1,0 +1,13 @@
+.header {
+  height: 100vh;
+}
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+}
+.logo h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+}

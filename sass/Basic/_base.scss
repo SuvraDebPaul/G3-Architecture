@@ -1,0 +1,79 @@
+/* Importing Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Variables Declaration*/
+$font-primary: "Work Sans", sans-serif;
+$bg-color: rgba(255, 144, 14, 0.1);
+$btn-color: #ff900e;
+$dark-01: #131313;
+$dark-02: #424242;
+$dark-03: #727272;
+$dark-04: #a1a1a1;
+$dark-05: #d0d0d0;
+$dark-06: #e7e7e7;
+$dark-07: #f3f3f3;
+
+/*Basic Settings*/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px */
+}
+body {
+  font-family: $font-primary;
+  font-size: 1.6rem; /* 16px */
+  line-height: 1.5;
+  color: $dark-01;
+  background-color: $bg-color;
+  max-width: 80vw; /* 86% of viewport width */
+  margin: 0 auto; /* Centering the body*/
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+  background-color: $btn-color;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem; /* 16px */
+  border-radius: 0.4rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-bottom: 1.6rem; /* 16px */
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+ul {
+  list-style: none;
+}
+.header__title {
+  margin-top: 10rem;
+  font-size: 6.4rem;
+  line-height: 1.2;
+}
+.header__description {
+  font-size: 1.6rem;
+  color: $dark-03;
+  max-width: 60vw;
+  margin: 0 auto;
+}
+/* Responsive Design */
