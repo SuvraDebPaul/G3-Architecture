@@ -20,9 +20,6 @@ body {
   font-size: 1.6rem; /* 16px */
   line-height: 1.5;
   color: #131313;
-  background-color: rgba(255, 144, 14, 0.1);
-  max-width: 80vw; /* 86% of viewport width */
-  margin: 0 auto; /* Centering the body*/
 }
 
 a {
@@ -129,7 +126,7 @@ ul {
 }
 
 .header {
-  height: 100vh;
+  background-color: rgba(255, 144, 14, 0.1);
 }
 
 .top-header {
@@ -137,11 +134,69 @@ ul {
   justify-content: space-between;
   align-items: center;
   height: 15vh;
+  max-width: 80vw; /* 86% of viewport width */
+  margin: 0 auto; /* Centering the body*/
 }
 
 .logo h1 {
   font-size: 4.5rem;
   font-weight: bold;
+}
+
+.header__content,
+.hero {
+  max-width: 80vw; /* 86% of viewport width */
+  margin: 0 auto; /* Centering the body*/
+}
+
+.hero__image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.Quick-list {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+}
+.Quick-list__img {
+  flex: 0 0 47%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.Quick-list__content {
+  flex: 0 0 47%;
+  margin-left: 6%;
+}
+.Quick-list__tittle {
+  font-size: 4.5rem;
+  margin-bottom: 1.6rem;
+  font-weight: 400;
+  color: #727272;
+  line-height: 1.2;
+}
+.Quick-list__tittle span {
+  font-weight: 700;
+  color: black;
+}
+.Quick-list__description {
+  font-size: 1.6rem;
+  color: #727272;
+  line-height: 1.5;
+  margin-bottom: 2.4rem;
+}
+
+.text-primary {
+  color: #ff900e !important;
+  font-weight: 700;
+}
+
+.main {
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

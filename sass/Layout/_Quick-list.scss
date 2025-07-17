@@ -1,0 +1,38 @@
+@use "../Basic/base" as *;
+
+.Quick-list {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  &__img {
+    flex: 0 0 47%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  &__content {
+    flex: 0 0 47%;
+    margin-left: 6%;
+  }
+  &__tittle {
+    font-size: 4.5rem;
+    margin-bottom: 1.6rem;
+    font-weight: 400;
+    color: $dark-03;
+    line-height: 1.2;
+    & span {
+      font-weight: 700;
+      color: black;
+    }
+  }
+  &__description {
+    font-size: 1.6rem;
+    color: $dark-03;
+    line-height: 1.5;
+    margin-bottom: 2.4rem;
+  }
+}
+.text-primary {
+  color: $btn-color !important;
+  font-weight: 700;
+}
