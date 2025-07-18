@@ -328,6 +328,17 @@ ul {
   cursor: pointer;
 }
 
+.footer {
+  background-color: rgba(255, 144, 14, 0.1);
+  margin-bottom: 20rem;
+}
+.footer__text {
+  font-size: 2rem;
+  color: #424242;
+  padding: 4rem 0;
+  text-align: center;
+}
+
 .main {
   max-width: 80vw;
   margin: 0 auto;

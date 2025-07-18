@@ -1,0 +1,11 @@
+@use "../Basic/base" as *;
+.footer {
+  background-color: $bg-color;
+  margin-bottom: 20rem;
+  &__text {
+    font-size: 2rem;
+    color: $dark-02;
+    padding: 4rem 0;
+    text-align: center;
+  }
+}
