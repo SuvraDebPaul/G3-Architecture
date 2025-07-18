@@ -296,6 +296,38 @@ ul {
   color: #727272;
 }
 
+.Sponsors {
+  margin-bottom: 13rem;
+}
+.Sponsors__header {
+  text-align: center;
+}
+.Sponsors__title {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+.Sponsors__description {
+  font-size: 1.6rem;
+  color: #727272;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.Sponsors__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.Sponsors__item {
+  filter: grayscale(100%);
+}
+.Sponsors__item:hover {
+  filter: grayscale(0%);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
 .main {
   max-width: 80vw;
   margin: 0 auto;

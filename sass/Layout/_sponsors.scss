@@ -1,0 +1,32 @@
+@use "../Basic/base" as *;
+.Sponsors {
+  margin-bottom: 13rem;
+  &__header {
+    text-align: center;
+  }
+  &__title {
+    font-size: 4.5rem;
+    font-weight: 600;
+  }
+  &__description {
+    font-size: 1.6rem;
+    color: $dark-03;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 5rem;
+  }
+  &__item {
+    filter: grayscale(100%);
+  }
+  &__item:hover {
+    filter: grayscale(0%);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+}
