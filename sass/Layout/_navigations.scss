@@ -7,8 +7,11 @@
     font-weight: 500;
     line-height: 2.6rem;
     color: $dark-01;
+    cursor: pointer;
     &:not(:last-child) {
       margin-right: 2rem;
+    }
+    &__link {
     }
   }
   &__button {
