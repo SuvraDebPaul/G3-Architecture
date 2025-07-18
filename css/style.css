@@ -265,6 +265,37 @@ ul {
   display: block;
 }
 
+.Facts {
+  margin-bottom: 18rem;
+}
+.Facts__title {
+  font-size: 4.5rem;
+}
+.Facts__description {
+  font-size: 1.4rem;
+  color: #727272;
+}
+.Facts__list {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+.Facts__item {
+  border: 1px solid #ff900e;
+  padding: 4.5rem 3.6rem;
+  border-radius: 0.8rem;
+  justify-items: center;
+  font-weight: 600;
+}
+.Facts__item--number {
+  font-size: 4.5rem;
+  color: #424242;
+}
+.Facts__item--text {
+  font-size: 2rem;
+  color: #727272;
+}
+
 .main {
   max-width: 80vw;
   margin: 0 auto;

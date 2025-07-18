@@ -1,0 +1,32 @@
+@use "../Basic/base" as *;
+.Facts {
+  margin-bottom: 18rem;
+  &__title {
+    font-size: 4.5rem;
+    //margin-bottom: 2.4rem;
+  }
+  &__description {
+    font-size: 1.4rem;
+    color: $dark-03;
+  }
+  &__list {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    border: 1px solid $btn-color;
+    padding: 4.5rem 3.6rem;
+    border-radius: 0.8rem;
+    justify-items: center;
+    font-weight: 600;
+    &--number {
+      font-size: 4.5rem;
+      color: $dark-02;
+    }
+    &--text {
+      font-size: 2rem;
+      color: $dark-03;
+    }
+  }
+}
